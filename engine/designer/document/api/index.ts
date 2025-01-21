@@ -2,7 +2,7 @@
 import axios from 'axios';
 
 const request = axios.create({
-  baseURL: 'http://localhost:3000/api',
+  baseURL: 'https://an-code-ai-theta.vercel.app:3000/api',
 });
 /* GET /edit/insertNode */
 export async function editInsertNode(options?: { [key: string]: any }) {
