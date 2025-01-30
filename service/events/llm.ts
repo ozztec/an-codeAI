@@ -80,7 +80,7 @@ async function useGeminiResponse([messages, callback, params]: Parameters<
   typeof streamingOpenAIResponses
 >) {
   let genAI = new GoogleGenerativeAI(
-    params.geminiApiKey || process.env["GEMINI_API_KEY"]
+    params.geminiApiKey || process.env["AIzaSyBjRshYJR8rI7EPXQIC6ArCLRKvufKWBRQ"]
   );
   const generationConfig = {
     temperature: 0,
